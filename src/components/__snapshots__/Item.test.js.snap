@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Item Component should match its snapshot with profiles 1`] = `
+<ul>
+  <li>
+    john
+    <br />
+    <img
+      alt="john"
+      src="foo.jpg"
+    />
+  </li>
+</ul>
+`;
+
+exports[`Item Component should render a profile 1`] = `<ul />`;
