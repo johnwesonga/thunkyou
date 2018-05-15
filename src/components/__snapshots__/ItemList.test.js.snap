@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ItemList Component  snapshot ItemList  1`] = `
+<ItemList
+  fetchData={[Function]}
+  hasErrored={false}
+  isLoading={false}
+  items={Object {}}
+/>
+`;

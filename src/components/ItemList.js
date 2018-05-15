@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { itemsFetchData } from '../actions/items';
 import Item from './Item';
 
-class ItemList extends Component {
+export class ItemList extends Component {
   componentDidMount() {
      // this.props.fetchData('http://599167402df2f40011e4929a.mockapi.io/items');
       this.props.fetchData('https://reqres.in/api/users');

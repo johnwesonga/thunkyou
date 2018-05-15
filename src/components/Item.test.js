@@ -11,10 +11,9 @@ describe('Item Component' , () => {
 
     it('should match its snapshot with profiles', () => {
         const items = [{
-            id: 1,
-            first_name: 'john',
-            avatar: 'foo.jpg'
-        }];
+            id: '1', 
+            first_name: 'john', 
+            avatar: 'foo.jpg'}];
         const tree = renderer.create(
           <Item items={items} />
         ).toJSON();      
